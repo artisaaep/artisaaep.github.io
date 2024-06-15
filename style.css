@@ -3,7 +3,7 @@
 .avaliable_rides {
     text-align: center;
     font-family: Kreadon;
-    color: (--tg-theme-text-color);
+    color: var(--tg-theme-text-color);
 }
 
 body {
