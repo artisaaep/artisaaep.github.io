@@ -33,10 +33,6 @@
     font-size: 18px;
 }
 
-.ride:hover {
-    background-color: var(--tg-theme-secondary-bg-color);
-}
-
 body {
     background-color: var(--tg-theme-secondary-bg-color);
 }
