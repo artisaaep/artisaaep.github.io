@@ -1,4 +1,4 @@
-@font-face { font-family: Kreadon; src: url(fonts/Kreadon-Regular.ttf); } 
+@font-face { font-family: Kreadon Regular; src: url(fonts/Kreadon-Regular.ttf); } 
 
 .avaliable_rides {
     position: fixed;
