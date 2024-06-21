@@ -29,13 +29,16 @@ function inv() {
     const tg = window.Telegram.WebApp;
     if (tg.themeParams.bg_color && isDarkColor(tg.themeParams.bg_color)) {
         document.getElementById('car').style.filter = 'invert(1)';
+        document.body.style.setProperty('background-color', '#1c1c1d');
     }
 }
 Telegram.WebApp.onEvent('themeChanged', function() {
     const tg = window.Telegram.WebApp;
     if (tg.themeParams.bg_color && isDarkColor(tg.themeParams.bg_color)) {
         document.getElementById('car').style.filter = 'invert(1)';
+        document.body.style.setProperty('background-color', '#1c1c1d');
     } else {
         document.getElementById('car').style.filter = 'none';
+        document.body.style.setProperty('background-color', '#f0eff5');
     }
 });
