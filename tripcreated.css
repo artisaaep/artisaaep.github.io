@@ -10,6 +10,7 @@ p {
     font-family: 'Kreadon Regular';
 }
 #success {
+    margin-top: 25%;
     font-size: 40px;
 }
 
@@ -21,10 +22,22 @@ p {
     font-size: 20px;
 }
 
-.car {
+#car {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
     width: 350px;
 }
+
+@keyframes getSmaller {
+    0%{
+      transform: scale(1);
+    }
+    50%{
+      transform: scale(0.8);
+    }
+    100%{
+      transform: scale(1);
+    }
+  }
