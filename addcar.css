@@ -67,16 +67,17 @@
   
 .parameters input {
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     margin-left: 20%;
     border: 0px;
     border-radius: 10px;
     margin-top: 5%;
-    padding: 1%;
+    padding: 2%;
     margin-left: auto;
     width: 60%;
     margin-right: 1%;
     background-color: #E3E1E1;
+    box-shadow: 0px 3px 3cqmax rgba(0, 0, 0, 0.3);
 }
 #ADD {
     font-family: Kreadon_regular;
@@ -89,6 +90,7 @@
     border-radius: 10px;
     border: 0px;
     background-color: #FBEA50;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
 
 }
 
