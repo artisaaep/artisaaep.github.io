@@ -1,17 +1,18 @@
 @font-face { font-family: Kreadon_regular; src: url(fonts/Kreadon-Regular.ttf); } 
 @font-face { font-family: Kreadon_bold; src: url(fonts/Kreadon-Bold.ttf); } 
 @font-face { font-family: Kreadon_demi; src: url(fonts/Kreadon-Demi.ttf); } 
-@font-face { font-family: Kreadon_medium; src: url(fonts/Kreadon-Medium.ttf); } 
+@font-face { font-family: Kreadon_medium; src: url(fonts/Kreadon-Medium.ttf); }
+
 .navig {
 
 }
- 
 
-#back {
+.close {
     font-family: Kreadon_regular;
     font-size: 20px;
     margin-right: 15px;
     padding: 0;
+    margin-top: -20%;
     background-color: var(--tg-theme-secondary-bg-color);
     color: var(--tg-theme-text-color);
     border-radius: 10px;
@@ -22,9 +23,11 @@
     top: 200px;
     transition: 0.2s;
 }
-#back:hover {
+
+.close:hover {
     background-color: gray;
 }
+
 #Hadd {
     font-family: Kreadon_regular;
     font-size: 26px;
@@ -32,20 +35,21 @@
     background-color: #E3E1E1;
     border-radius: 10px;
     padding: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
     width: 250px;
     margin-top: 10px;
 }
 
 .parameters {
-    margin-top: 6%;
     font-size: 20px;
-    font-family: Kreadon_medium; 
-    display: grid; 
-    gap: 10px; 
+    font-family: Kreadon_medium;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+}
+
+p {
+    margin-left: 10%;
 }
   
 .parameters a {
@@ -53,34 +57,46 @@
     margin-left: 5%;
     font-size: 20;
 }
+
+.vvod::placeholder {
+    font-size: 16px;
+}
+
+input, a {
+    -webkit-tap-highlight-color: transparent;
+}
   
 .parameters input {
     display: block;
     margin-bottom: 15px;
-    margin-left: 20%;
+    font-size: 16px;
     border: 0px;
     border-radius: 10px;
-    margin-top: 5%;
     padding: 2%;
+    width: 80%;
+    height: 30px;
     margin-left: auto;
-    width: 60%;
-    margin-right: 1%;
+    margin-right: auto;
     background-color: #E3E1E1;
     box-shadow: 0px 3px 1cqmax rgba(0, 0, 0, 0.3);
 }
+
 #ADD {
     font-family: Kreadon_regular;
-    font-size: 26px;
+    font-size: 16px;
     margin-top: 15%;
-    padding: 3%;
-    padding-left: 15%;
-    padding-right: 15%;
-    margin-left: 18%;
+    padding: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
     border-radius: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
     border: 0px;
     background-color: #FBEA50;
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
-
+    transition: 0.2s;
 }
 
 button {
