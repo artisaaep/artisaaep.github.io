@@ -9,3 +9,7 @@ function goBack() {
 function ride() {
     window.location.href = 'notification_of_the_application_to_the_driver.html';
 }
+
+function create() {
+    window.location.href = 'tripcreated.html';
+}
