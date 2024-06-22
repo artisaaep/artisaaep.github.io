@@ -17,6 +17,7 @@
     padding-left: 40px;
     margin-right: 5%;
 }
+
 #imgfilter {
     height: 30%;
     width: 30%;
@@ -24,6 +25,7 @@
     margin-right: 5%;
     margin-left: -30px;
 }
+
 #imghist {
     float: right;
     height: 30%;
@@ -32,6 +34,7 @@
     top: 14%;
     right: 9%;
 }
+
 #imgprof {
     float: right;
     height: 30%;
@@ -40,6 +43,7 @@
     top: 14%;
     right: 53%;
 }
+
 .card {
     padding: 3%;
     text-align: center;
@@ -50,6 +54,7 @@
     background-color: #E3E1E1;
     min-height: 140px;
 }
+
 #avatar {
 
     width: 30%;
@@ -58,52 +63,63 @@
     border: solid 1px black;
     float: left;
 }
+
 .name {
     font-family: Kreadon_demi; 
     margin-left: 5%;
     font-size: 16px;
 }
+
 .date {
     font-family: Kreadon_medium;
     margin-left: 5%;
     font-size: 11px;
 }
+
 .from {
     font-family: Kreadon_demi;
     margin-left: 5%;
     font-size: 15px;
 }
+
 .strelka {
     font-family: Kreadon_demi;
     font-size: 15px;
 }
+
 .to {
     font-family: Kreadon_demi;
     font-size: 15px;
 }
+
 .clari-from {
     font-family: Kreadon_regular;
     margin-left: 5%;
     font-size: 10px;
 }
+
 .time {
     font-family: Kreadon_medium;
     font-size: 11px;
 }
+
 .clari-to {
     font-family: Kreadon_regular;
     font-size: 10px;
 }
+
 .dopinfa {
     padding-top: 1%;
     float: left;
     margin-right: 43%;
     margin-left: 2%;
 }
+
 .rides {
     font-family: Kreadon_medium;
     font-size: 11px;
 }
+
 .free-places {
     font-family: Kreadon_medium;
     font-size: 11px;
@@ -116,10 +132,12 @@
     padding-top: 10%;
     margin-right: 8%;
 }
+
 .choose {
 
 }
-footer{
+
+footer {
     position: fixed;
     bottom: 0;
     width: 99%;
@@ -127,12 +145,15 @@ footer{
     border-top-right-radius: 15%; 
     box-shadow: 0px -3px 8px rgba(0, 0, 0, 0.3);
 }
+
 footer button {
     width: 33%;
     height: 78%;
     font-family: Kreadon_regular;
     font-size: 18px;
-    text-align:left;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
     border-radius: 10px;
     padding-top: 10%;
     bottom: 0%;
