@@ -11,9 +11,6 @@ document.addEventListener('DOMContentLoaded', function() {
             modal.querySelector('.modal-content').classList.add('show');
         }, 10); // Небольшая задержка для запуска анимации
     }
-    function goBack() {
-        window.history.back();
-    }
 
     document.addEventListener('click', function(event) {
         var isClickInside = document.querySelector('.vvod').contains(event.target);
