@@ -9,33 +9,32 @@
     <title>On the way</title>
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
 </head>
-<div class="header">
-    <header>
-        <h1 class="avaliable_rides">Доступные поездки:</h1>
-    </header>
-</div>
+
 <body>
-        <button id="filter" onclick="">Фильтр</button>
+        <button id="filter" onclick=""><img id="imgfilter" src="icons/filter-svgrepo-com.svg">Фильтр</button>
+        <br>
+        <br>
         <div class="card">
-            <a class="name">Артём Остапенко</a>
-            <a class="date">30.02.2024</a>
+            <img id="avatar" src="artem.jpg">
+            <a class="name">Артём Остапенко<br></a>
+            <a class="date">30.02.2024 <br></a>
             <a class="from">Иннополис</a>
-            <a class="strelka">&rarr</a>
-            <a class="to">Казань</a>
+            <a class="strelka">&#2192</a>
+            <a class="to">Казань<br></a>
             <a class="clari-from">Технопарк</a>
             <a class="time">16:00</a>
             <a class="clari-to">Тандем</a>
             <div class="dopinfa">
-                <a class="rides">Поездок: 0</a>
+                <a class="rides">Поездок: 0 <br></a>
                 <a class="free-places">Свободных мест: 3</a>
             </div>
-            <a class="price">250 руб.</a>
-            <button class="choose" onclick="">Выбрать</button>
+            <div class="pr-ch">
+                <a class="price">250 руб.</a>
+                <button class="choose" onclick="">Выбрать</button>
+            </div>
         </div>
-        <div class="card"></div>
-        <div class="card"></div>
         <footer class="footer">
-            <button id="My-profile" onclick=""><img id="imgprof" src="profile-1341-svgrepo-com.svg">Мой профиль</button>
+            <button id="My-profile" onclick=""><img id="imgprof" src="icons/profile-1341-svgrepo-com.svg">Мой профиль</button>
             <button id="history" onclick=""><img id="imghist" src="./icons/travel-car-svgrepo-com.svg">История поездок</button>
         </footer>
 </body>
