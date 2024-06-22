@@ -1,7 +1,7 @@
 @font-face { font-family: 'Kreadon Regular'; src: url(fonts/Kreadon-Regular.ttf); } 
 
 body {
-    background-color: #f0eff5;
+    background-color: var(--tg-theme-secondary-bg-color);
 }
 
 p {
