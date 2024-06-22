@@ -108,7 +108,7 @@
     width: 47.79%;
     margin: auto;
     background-color: #FBEA50D9;
-    font-size: 18px;
+    font-size: 4.7vw;
     font-family: "Kreadon";
     justify-content: center;
     align-items: center;
@@ -244,18 +244,28 @@
     margin-bottom: 0.3vh;
 }
 
-
-.grey-rect input[type="text"] {
+#form {
     width: 100%;
     height: 100%;
-    font-size: 16px;
+    position: relative;
+}
+
+#comment {
+    width: 100%;
+    height: 100%;
+    font-size: 3.4vw;
     border: none;
     background-color: inherit;
     border-radius: 8px;
     box-sizing: border-box; 
-    text-align: left; 
+    text-align: left;
+    padding-left: 2%;
     white-space: normal; 
-    overflow: auto; 
+    overflow: auto;
+    resize: none;
+    position: absolute;
+    margin: 0;
+    outline: none;
 }
 
 #car {
@@ -285,4 +295,22 @@
     flex: 1;
     margin-left: 6%;
     margin-right: 2%;
+}
+
+.create {
+    height: 6.5%;
+    width: 53.8%;
+    margin: auto;
+    background-color: #FBEA50D9;
+    font-size: 18px;
+    font-family: "Kreadon";
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    display: flex;
+    color: #000;
 }
