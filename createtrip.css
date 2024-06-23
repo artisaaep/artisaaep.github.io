@@ -34,6 +34,7 @@
     margin-right: 2%;
     border-color: #000;
     background-color: #E3E1E1;
+    padding: 0;
 }
 
 #dir-text {
@@ -58,9 +59,7 @@
     height: 43vh;
     background-color: #E3E1E1;
     display: flex;
-    /* justify-content: center; */
     margin: auto;
-    /* align-items: center; */
     margin-bottom: 3%;
     border-radius: 10px;
     flex-direction: column;
@@ -122,25 +121,23 @@
 }
 
 #date {
-    height: 81%;
-    width: 43%;
+    height: 14.2vh;
+    width: 100%;
     border-radius: 10px;
     border-color: #000;
-    margin-left: 2%;
-    margin-right: 2%;
-    font-size: 5.7vw;
+    font-size: 5vw;
     font-family: "Kreadon";
     color: #000;
-    margin-left: 2%;
-    margin-right: 2%;
     background-color: #E3E1E1;
 }
+
 
 .date-desc {
     height: 81%;
     width: 43%;
     margin-left: 2%;
     margin-right: 2%;
+    padding: 0;
 }
 
 #date-title {
@@ -357,4 +354,29 @@ footer button {
     margin-left: 10%;
     margin-top: 0;
     color: #000;
+}
+
+
+.new-button {
+    color: #000;
+    height: 50%; /* Занимает 50% высоты родительского элемента */
+    width: 100%; /* Занимает 100% ширины родительского элемента */
+    margin: 0;
+    background-color: #E3E1E1;
+    border-color: #E3E1E1;
+    padding: 0;
+    font-size: 2.7vh;
+    font-family: "Kreadon";
+}
+
+#lower {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: 0.6px solid black;
+}
+
+#upper {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 0.6px solid black;
 }
