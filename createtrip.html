@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script src="links.js"></script>
+    <script src="createtrip.js"></script>
+    
 </head>
 <body>
     <link rel="stylesheet" href="createtrip.css">
@@ -14,7 +18,6 @@
             <img src="images/location-pin-alt-svgrepo-com.svg" id="dir-image">
             <p id="dir-text">Откуда</p>
         </button>
-        <script src="createtrip.js"></script>
         <button class="dir-button">
             <img src="images/location-xmark-svgrepo-com.svg" id="dir-image">
             <p id="dir-text">Куда</p>
@@ -99,8 +102,7 @@
             <textarea id="comment" placeholder="Дополнительные сведения о поездке..."></textarea>
         </form>
     </div>
-    <script src="script.js"></script>
-    <button class="create">
+    <button class="create" onclick="create()">
         Создать поездку
     </button>
     <footer class="footer">

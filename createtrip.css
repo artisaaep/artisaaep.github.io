@@ -5,6 +5,10 @@
     font-weight: 400;
 } 
 
+body {
+    background-color: #f0eff5;
+}
+
 .body {
     display: flex;
     flex-direction: column;
@@ -17,6 +21,7 @@
     width: 83.9%;
     height: 17.5vh;
     background-color: #E3E1E1;
+    /*background-color: #e3e1e1ae;*/
     display: flex;
     justify-content: center;
     margin: auto;
