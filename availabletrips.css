@@ -4,6 +4,9 @@
 @font-face { font-family: Kreadon_medium; src: url(fonts/Kreadon-Medium.ttf); }
 
 #filter {
+    position: fixed;
+    left: 61%;
+    right: 5%;
     padding: 5px;
     float: right;
     width: 35%;
@@ -16,6 +19,10 @@
     font-family: Kreadon_regular;
     padding-left: 40px;
     margin-right: 5%;
+}
+
+.content {
+    margin-bottom: 35%;
 }
 
 #imgfilter {
