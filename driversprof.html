@@ -13,9 +13,9 @@
     <title>Document</title>
 </head>
 <body>
-
-    <button id="back" onclick="goBack()">Назад</button>
-
+    <div id="verh">
+        <button id="back" onclick="goBack()">Назад</button>
+    </div>
     <p id="name">Артём Остапенко</p>
     <div class="maininfa">
         <a class="date">30.02.2024<br></a>
@@ -26,25 +26,38 @@
         <a class="time">16:00</a>
         <a class="clari-to">Тандем</a>
     </div>
-    <img src="artem.jpg" alt="Аватарка" id="avatar">
     <div class="bio">
+        <img src="artem.jpg" alt="Аватарка" id="avatar">
         <p id="age">Возраст: 18</p>
         <p id="sex">Пол: Мужской</p>
         <p id="rides">Количество поездок: 0</p>
     </div>
     <div class="options">
-        <a>Животные</a>
-        <a>Детское кресло</a>
-        <a>Бустер</a>
-        <a>Багаж</a>
+        <div id="pets">
+            <a>Животные<br></a>
+            <a id="z1">&#10004;</a>
+        </div>
+        <div id="kids">
+            <a>Детское кресло<br></a>
+            <a id="z2">&#10004;</a>
+        </div>
+        <div id="minikids">
+            <a>Бустер<br></a>
+            <a id="z3">&#10006;</a>
+        </div>
+        <div id="bag">
+            <a>Багаж<br></a>
+            <a id="z4">&#10004;</a>
+        </div>
     </div>
-    <div class="YesOrNo">
-        <a>&#10004;</a>
-        <a>&#10004;</a>
-        <a>&#10006;</a>
-        <a>&#10004;</a>
+    <div id="car">
+        <a id="mashina">Машина:</a>
+        <a id="named">Розовый Daewoo Matiz А666АА 716</a>
     </div>
-    <input id="input"> 
+    <div id="info">
+        <a>важная информация от водителя <a></a>
+    </div>
+    <br>
     <button id="choose" onclick="">Выбрать</button>
 </body>
 </html>
