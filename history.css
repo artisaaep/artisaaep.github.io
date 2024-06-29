@@ -3,6 +3,14 @@
 @font-face { font-family: Kreadon_demi; src: url(fonts/Kreadon-Demi.ttf); } 
 @font-face { font-family: Kreadon_medium; src: url(fonts/Kreadon-Medium.ttf); }
 
+.arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid black;
+  }
+  
 #back {
     float: left;
     padding: 5px;
@@ -87,7 +95,7 @@
 
 .from {
     font-family: Kreadon_demi;
-    margin-left: 3%;
+    margin-left: 0%;
     font-size: 15px;
 
 }
@@ -95,14 +103,14 @@
 .strelka {
     font-family: Kreadon_demi;
     font-size: 15px;
-    margin-left: 2%;
+    margin-left: 7%;
     
 }
 
 .to {
     font-family: Kreadon_demi;
     font-size: 15px;
-    margin-left: 2%;
+    margin-left: 6%;
 }
 
 .clari-from {
