@@ -1,0 +1,141 @@
+@font-face { font-family: Kreadon_regular; src: url(fonts/Kreadon-Regular.ttf); } 
+@font-face { font-family: Kreadon_bold; src: url(fonts/Kreadon-Bold.ttf); } 
+@font-face { font-family: Kreadon_demi; src: url(fonts/Kreadon-Demi.ttf); } 
+@font-face { font-family: Kreadon_medium; src: url(fonts/Kreadon-Medium.ttf); } 
+
+body {
+    background-color: var(--tg-theme-bg-color);
+    color: var(--tg-theme-text-color);
+    font-family: Kreadon_regular;
+}
+
+input:focus {
+    outline: none;
+}
+
+#imgprof {
+    height: 15%;
+    width: 15%;
+    float: left;
+    margin-right: 5%;
+    margin-left: -30px;
+}
+
+
+#back {
+    font-family: Kreadon_regular;
+    font-size: 20px;
+    margin-right: 4%;
+    padding: 1.5%;
+    background-color: #E3E1E1;
+    color: black;
+    border-radius: 10px;
+    border: 1px solid var(--tg-theme-text-color);
+    width: 25%;
+    top: auto;
+    float: right;
+    position:relative
+    
+}
+
+#name {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: Kreadon_regular;
+    text-align: center;
+    font-size: 26px;
+    padding: 1.5%;
+    width: 88%;
+    background-color: #E3E1E1;
+    color: black;
+    border-radius: 10px;
+    border-color: black;
+}
+
+#avatar {
+    display: block;
+    margin-left: 5%;
+    width: 45%;
+    height: 45%;
+    border-radius: 50%;
+    border: solid 1px black;
+    margin-top: 3%;
+}
+
+#age {
+    font-family: Kreadon_regular;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 55%;
+    margin-right: 5%;
+    margin-top: -38%; 
+}
+
+#sex {
+    font-family: Kreadon_regular;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 55%;
+    margin-right: 5%;
+    margin-top: -25%; 
+}
+
+#rides {
+    font-family: Kreadon_regular;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 55%;
+    margin-right: 5%;
+    margin-top: -14%; 
+}
+
+.maininfa {
+    width: 100%;
+    text-align: center;
+}
+
+.date {
+    font-family: Kreadon_medium;
+    font-size: 11px;
+    width: 10%;
+    text-align: center;
+}
+
+.from {
+    font-family: Kreadon_demi;
+    margin-left: 0%;
+    font-size: 15px;
+
+}
+
+.strelka {
+    font-family: Kreadon_demi;
+    font-size: 15px;
+    margin-left: 7%;
+    
+}
+
+.to {
+    font-family: Kreadon_demi;
+    font-size: 15px;
+    margin-left: 6%;
+}
+
+.clari-from {
+    font-family: Kreadon_regular;
+    margin-right: 1%;
+    margin-left: 3%;
+    font-size: 10px;
+}
+
+.time {
+    font-family: Kreadon_medium;
+    font-size: 11px;
+    margin-left: 10%;
+}
+
+.clari-to {
+    font-family: Kreadon_regular;
+    font-size: 10px;
+    margin-left: 10%;
+}
