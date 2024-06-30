@@ -13,3 +13,7 @@ function ride() {
 function create() {
     window.location.href = 'tripcreated.html';
 }
+
+function choose() {
+    window.location.href = 'driversprof.html';
+}
