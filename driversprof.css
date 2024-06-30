@@ -54,27 +54,34 @@ input:focus {
     border-radius: 30px;
     margin-top: 11%;
     
-    border: 5px solid #FBEA50;
+    border: 5px solid #C2C2C2;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
 }
 .bio {
     width: 100%;
-    margin-top: 4%;
+    margin-top: 16%;
 }
 
 #avatar {
     display: block;
-    margin-left: 5%;
-    width: 45%;
-    height: 45%;
+    margin-left: 10%;
+    width: 25%;
+    height: 25%;
     border-radius: 50%;
     border: solid 1px black;
-    margin-top: 3%;
+    margin-top: -10%
+}
+
+#textt {
+    margin-top: 18%;
+    width: 30%;
+    font-size: 15px;
+    margin-left: -3%;
+
 }
 
 #age {
     font-family: Kreadon_regular;
-    font-size: 20px;
     position: absolute;
     margin-left: 55%;
     margin-right: 5%;
@@ -83,26 +90,24 @@ input:focus {
 
 #sex {
     font-family: Kreadon_regular;
-    font-size: 20px;
     position: absolute;
     margin-left: 55%;
     margin-right: 5%;
-    margin-top: -27%; 
+    margin-top: -33%; 
 }
 
 #rides {
     font-family: Kreadon_regular;
-    font-size: 20px;
     position: absolute;
     margin-left: 55%;
     margin-right: 5%;
-    margin-top: -16%; 
+    margin-top: -26%; 
 }
 
 .maininfa {
     width: 100%;
     text-align: center;
-    margin-top: -2%;
+    margin-top: -17%;
 }
 
 .date {
@@ -154,7 +159,7 @@ input:focus {
 }
 
 .options {
-    margin-top: -1%;
+    margin-top: 1%;
     display: flex;
     text-align: center;
     width: 100%;
@@ -238,4 +243,17 @@ input:focus {
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
     bottom: 10%;
     color: black;
+    float: right;
+    margin-right: 5%;
+}
+
+#price {
+    font-family: Kreadon_demi;
+    font-size: 20px;
+    bottom: 10%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 2.5%;
+    border-bottom: 1px solid black;
+
 }
